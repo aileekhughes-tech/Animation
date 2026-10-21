@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Music Studio.ma
-//Last modified: Tue, Oct 20, 2026 08:12:45 PM
+//Last modified: Tue, Oct 20, 2026 08:42:18 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.6.1.1";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 20.5.2";
-fileInfo "UUID" "90C9F2A3-784C-8CEE-39E8-E19F3E19ABE5";
+fileInfo "UUID" "B66302CE-0644-1007-DB0D-DE922BA2158D";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "44F93D42-F64F-3F19-CCCF-9F8CC8B0C68F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.3103062486385211 21.381320012131731 38.459040036501968 ;
-	setAttr ".r" -type "double3" -13.538352734313117 1072.9999999986419 0 ;
+	setAttr ".t" -type "double3" -8.2301373312032862 10.824187116391872 4.2414058961686667 ;
+	setAttr ".r" -type "double3" -3.9383527343136073 1045.7999999985952 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "89281BC8-9041-55ED-DFC6-E4B4D9C0A82F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 49.077579155753618;
+	setAttr ".coi" 15.60853013961605;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
